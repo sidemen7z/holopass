@@ -1,0 +1,7 @@
+-- Insert sample events
+INSERT INTO events (title, description, image_url, location, start_date, end_date, max_attendees, qr_code, stamp_reward, xp_reward) VALUES
+('Web3 Developer Meetup', 'Join us for an evening of Web3 development discussions and networking.', '/placeholder.svg?height=200&width=300', 'San Francisco, CA', '2024-02-15 18:00:00+00', '2024-02-15 21:00:00+00', 100, 'web3-dev-meetup-2024', 15, 75),
+('NFT Art Gallery Opening', 'Exclusive opening of the latest NFT art collection featuring digital artists.', '/placeholder.svg?height=200&width=300', 'New York, NY', '2024-02-20 19:00:00+00', '2024-02-20 23:00:00+00', 50, 'nft-gallery-opening-2024', 20, 100),
+('Blockchain Conference 2024', 'The premier blockchain conference featuring industry leaders and innovators.', '/placeholder.svg?height=200&width=300', 'Austin, TX', '2024-03-01 09:00:00+00', '2024-03-03 17:00:00+00', 500, 'blockchain-conf-2024', 25, 150),
+('DeFi Workshop', 'Learn about decentralized finance protocols and yield farming strategies.', '/placeholder.svg?height=200&width=300', 'Miami, FL', '2024-02-25 14:00:00+00', '2024-02-25 18:00:00+00', 75, 'defi-workshop-2024', 18, 90),
+('Crypto Trading Masterclass', 'Advanced trading strategies and market analysis for cryptocurrency investors.', '/placeholder.svg?height=200&width=300', 'Los Angeles, CA', '2024-03-10 10:00:00+00', '2024-03-10 16:00:00+00', 30, 'crypto-trading-master-2024', 22, 120);
